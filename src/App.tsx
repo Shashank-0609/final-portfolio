@@ -6,7 +6,7 @@ import About from './sections/About';
 import Skills from './sections/Skills';
 import Projects from './sections/Projects';
 import Experience from './sections/Experience';
-import Milestones from './sections/Milestones';
+import Certifications from './sections/Certifications';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 import CursorGlow from './components/CursorGlow';
@@ -72,7 +72,7 @@ export default function App() {
         <Skills />
         <Experience />
         <Projects />
-        <Milestones />
+        <Certifications />
         <Contact />
       </main>
 

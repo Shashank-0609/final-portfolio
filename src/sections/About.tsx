@@ -3,10 +3,10 @@ import { Reveal } from '../components/Reveal';
 import { Award, Briefcase, GraduationCap, CheckCircle2 } from 'lucide-react';
 
 const STATS = [
-  { label: "Projects Completed", value: "10+", icon: CheckCircle2 },
-  { label: "Certifications", value: "5+", icon: Award },
-  { label: "Technical Skills", value: "15+", icon: Briefcase },
-  { label: "Leadership Roles", value: "4", icon: GraduationCap },
+  { label: "Ongoing CGPA", value: "8.64", icon: GraduationCap },
+  { label: "Live Production Sites", value: "2", icon: CheckCircle2 },
+  { label: "AI Certifications", value: "8+", icon: Award },
+  { label: "Leadership Roles", value: "2+", icon: Briefcase },
 ];
 
 export default function About() {
@@ -24,13 +24,13 @@ export default function About() {
           <Reveal>
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
-                I am a hardworking and enthusiastic <span className="text-white font-semibold">Computer Science Engineering student</span> at Mallareddy Engineering College, Hyderabad. My journey is driven by a deep-seated passion for continuously learning new technologies and improving my problem-solving skills.
+                Final-year <span className="text-white font-semibold">Computer Science Engineering student</span> at Malla Reddy Engineering College, Hyderabad, with a practical, builder’s mindset focused on creating real-world solutions using AI tools, automation, and web technologies.
               </p>
               <p className="text-lg text-gray-400 leading-relaxed">
-                I pride myself on being adaptable, responsible, and optimistic. Collaboration is at the heart of what I do—I thrive in team environments and am dedicated to building real-world applications that solve meaningful problems.
+                Experienced in <span className="text-brand-cyan font-medium">freelance client delivery</span>, AI-assisted product development, and applying core CS fundamentals including Python, OOP, DSA, and SQL. Hands-on with Generative AI, RAG basics, and automation tools including WhatsApp automation.
               </p>
               <p className="text-lg text-gray-400 leading-relaxed">
-                Even as a fresher, I have cultivated practical skills across the stack, from frontend development to Python scripting and SQL data management. I am also deeply interested in AI-assisted development and prompt engineering.
+                Comfortable working across the full product lifecycle from ideation to deployment with a strong bias toward shipping and learning by doing.
               </p>
               
               <div className="grid grid-cols-2 gap-4 pt-6">
@@ -59,19 +59,19 @@ export default function About() {
                 {[
                   {
                     title: "B.Tech in Computer Science Engineering",
-                    institution: "Mallareddy Engineering College, Hyderabad",
-                    date: "Aug 2023 – May 2027",
-                    info: "CGPA: 8.87"
+                    institution: "Malla Reddy Engineering College, Hyderabad",
+                    date: "Aug 2023 – 2027",
+                    info: "CGPA: 8.64"
                   },
                   {
                     title: "Intermediate (MPC)",
                     institution: "Trividyaa Junior College, Hyderabad",
-                    date: "Apr 2021 – May 2023",
+                    date: "Jun 2021 – May 2023",
                     info: "Percentage: 98.5%"
                   },
                   {
                     title: "SSC (CLASS X)",
-                    institution: "SRI CHAITANYA SCHOOL, HYDERABAD",
+                    institution: "Sri Chaitanya School, Hyderabad",
                     date: "2020 – 2021",
                     info: "CGPA: 9.9/10"
                   }

@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Reveal } from '../components/Reveal';
-import { Mail, Linkedin, Github, MapPin, Phone } from 'lucide-react';
+import { Mail, Linkedin, Github, Instagram, MapPin, Phone } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -15,9 +15,6 @@ export default function Contact() {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col lg:flex-row gap-16 lg:items-end mb-24">
             <div className="max-w-2xl">
-              <Reveal>
-                <span className="text-brand-cyan font-mono text-sm tracking-[0.3em] uppercase mb-6 block">Ready to collaborate?</span>
-              </Reveal>
               <Reveal>
                 <h3 className="text-6xl md:text-8xl font-display font-bold leading-[1.1] mb-8 tracking-tighter">
                   Let's create something <span className="text-gradient">extraordinary</span> together.
@@ -105,7 +102,8 @@ export default function Contact() {
                   <div className="flex gap-4">
                     {[
                       { icon: Github, href: "https://github.com/Shashank-0609" },
-                      { icon: Linkedin, href: "https://www.linkedin.com/in/shashankell/" }
+                      { icon: Linkedin, href: "https://www.linkedin.com/in/shashankell/" },
+                      { icon: Instagram, href: "https://www.instagram.com/imshashank6/" }
                     ].map((social, i) => (
                       <motion.a 
                         key={i} 

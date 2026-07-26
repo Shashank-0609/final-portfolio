@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { ArrowUp, Github, Linkedin, Mail, Heart } from 'lucide-react';
+import { ArrowUp, Github, Linkedin, Instagram } from 'lucide-react';
 
 export default function Footer() {
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -21,12 +21,40 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-4">
-             <button 
-              onClick={scrollToTop}
+            <a 
+              href="https://github.com/Shashank-0609" 
+              target="_blank" 
+              rel="noreferrer" 
+              aria-label="GitHub"
               className="w-10 h-10 glass rounded-full flex items-center justify-center text-gray-400 hover:text-brand-cyan hover:border-brand-cyan transition-all"
-             >
-               <ArrowUp size={18} />
-             </button>
+            >
+              <Github size={18} />
+            </a>
+            <a 
+              href="https://www.linkedin.com/in/shashankell/" 
+              target="_blank" 
+              rel="noreferrer" 
+              aria-label="LinkedIn"
+              className="w-10 h-10 glass rounded-full flex items-center justify-center text-gray-400 hover:text-brand-cyan hover:border-brand-cyan transition-all"
+            >
+              <Linkedin size={18} />
+            </a>
+            <a 
+              href="https://www.instagram.com/imshashank6/" 
+              target="_blank" 
+              rel="noreferrer" 
+              aria-label="Instagram"
+              className="w-10 h-10 glass rounded-full flex items-center justify-center text-gray-400 hover:text-brand-cyan hover:border-brand-cyan transition-all"
+            >
+              <Instagram size={18} />
+            </a>
+            <button 
+              onClick={scrollToTop}
+              aria-label="Scroll to top"
+              className="w-10 h-10 glass rounded-full flex items-center justify-center text-gray-400 hover:text-brand-cyan hover:border-brand-cyan transition-all"
+            >
+              <ArrowUp size={18} />
+            </button>
           </div>
         </div>
 
